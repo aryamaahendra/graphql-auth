@@ -1,0 +1,29 @@
+{
+   "compilerOptions": {
+      "target": "ES2018",
+      "module": "commonjs",
+      "lib": ["ES2018", "esnext"],
+      "rootDir": ".",
+      "outDir": "dist",
+      "baseUrl": "src",
+      "paths": {
+         "@*": ["*"],
+         "@config": ["config"],
+         "@graphql*": ["app/graphql*"],
+         "@graphql/interfaces*": ["app/graphql/interfaces*"],
+         "@graphql/resolvers*": ["app/graphql/resolvers*"],
+         "@graphql/types*": ["app/graphql/types*"],
+         "@untilities*": ["app/utils*"],
+         "@metypes*": ["metypes"],
+         "@interfaces*": ["interfaces*"],
+         "@repositories*": ["repositories*"],
+         "@services*": ["services*"],
+         "@validators*": ["validators*"]
+      },
+      "sourceMap": true,
+      "esModuleInterop": true,
+      "emitDecoratorMetadata": true,
+      "experimentalDecorators": true,
+      "strict": true
+   }
+}
