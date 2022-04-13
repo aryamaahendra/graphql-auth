@@ -7,18 +7,11 @@
       "outDir": "dist",
       "baseUrl": "src",
       "paths": {
-         "@*": ["*"],
+         "@*": ["./*"],
          "@config": ["config"],
-         "@graphql*": ["app/graphql*"],
-         "@graphql/interfaces*": ["app/graphql/interfaces*"],
-         "@graphql/resolvers*": ["app/graphql/resolvers*"],
-         "@graphql/types*": ["app/graphql/types*"],
-         "@untilities*": ["app/utils*"],
-         "@metypes*": ["metypes"],
+         "@components*": ["components*"],
          "@interfaces*": ["interfaces*"],
-         "@repositories*": ["repositories*"],
-         "@services*": ["services*"],
-         "@validators*": ["validators*"]
+         "@web*": ["web*"]
       },
       "sourceMap": true,
       "esModuleInterop": true,
